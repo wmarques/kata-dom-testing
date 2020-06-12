@@ -1,3 +1,5 @@
-<button mat-flat-button color="primary" (click)="minus()">-</button>
-{{count}}
+<button mat-flat-button data-testid="plus-button" color="primary" (click)="minus()">-</button>
+
+<span data-testid="counter">{{count}}</span>
+
 <button mat-flat-button color="primary" (click)="add()">+</button>
