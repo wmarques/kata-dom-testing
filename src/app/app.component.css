@@ -1,0 +1,18 @@
+:host {
+  width: 500px;
+  margin:auto;
+  display: block;
+  text-align: center;
+}
+
+.counter {
+  margin-top: 80px;
+}
+
+.form {
+  margin-top: 80px;
+}
+
+h1,h2 {
+  display: block;
+}
